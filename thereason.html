@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidden Message</title>
+    <title>Famous Quote</title>
     <style>
         body {
             font-family: 'Comfortaa', sans-serif;
-            text-align: center;
-            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
         }
-
-        .hidden-message {
+        .quote {
             font-size: 24px;
-            color: black;
-            opacity: 0; /* This will hide the text */
-        }
-
-        /* Animation to reveal the text when hovered */
-        .hidden-message:hover {
-            opacity: 1;
-            transition: opacity 1s ease-in-out;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
 
-    <p class="hidden-message">There are no 2 words in the english language more harmful than "good job".</p>
+    <div class="quote">
+        There are no two words in the English language more harmful than "good job."
+    </div>
 
 </body>
 </html>
